@@ -1,0 +1,25 @@
+plugin:
+    name: 'mesb.survey::lang.plugin.name'
+    description: 'mesb.survey::lang.plugin.description'
+    author: 'Me-Tech Solution Sdn Bhd'
+    icon: oc-icon-bar-chart
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Survey
+        url: mesb/survey/surveys
+        icon: icon-life-ring
+        permissions: {  }
+        sideMenu:
+            questions:
+                label: Questions
+                url: mesb/survey/questions
+                icon: icon-sitemap
+            side-menu-item:
+                label: 'Question Type'
+                url: mesb/survey/questiontypes
+                icon: icon-sitemap
+    main-menu-question:
+        label: Questions
+        url: mesb/survey/questions
+        icon: icon-question

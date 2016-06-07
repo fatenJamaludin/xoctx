@@ -1,0 +1,9 @@
+1.0.1:
+    - 'Initialize plugin.'
+    - create_polls_table.php
+    - create_questions_table.php
+    - create_surveys_table.php
+    - create_question_types_table.php
+1.0.2:
+    - 'Drop table mesb_survey_questiontypes'
+    - builder_table_delete_mesb_survey_questiontypes.php
